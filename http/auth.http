@@ -1,0 +1,24 @@
+POST http://localhost:5000/auth/
+Content-Type: application/json
+
+{
+  "username": "John",
+  "password": "test"
+}
+
+###
+POST http://localhost:5000/auth/
+Content-Type: application/json
+
+{
+  "username": "Admin",
+  "password": "test"
+}
+
+###
+PUT http://localhost:5000/auth/
+Content-Type: application/json
+
+{
+  "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiQWRtaW4iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE2ODg3Mzk4NjZ9.mWUhotM0PbOAeM87mhXFSQsopR99IBfNkAEXPULxcsM"
+}
